@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>final</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/contact.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="../index.html">Home</a>
+	  <a href="../templates/about.html">About</a>
+	  <a href="../templates/membership.html">Membership</a>
+	  <a href="../templates/contact.html">Contact Us</a>
+	  <a href="../templates/gallery.html">Gallery</a>
+</div>
+
+
+<div id="main">
+ 	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</header>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<div class="header">
+  <h1>Contact Us</h1>
+  <h3>Follow us on Social Media</h3>
+       
+</div> 
+
+<div class="contactForm">
+  <table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
+  <form action="https://formspree.io/your@email.com" method="POST" />
+  <tr> <td>
+  <label for="Name">Name*:</label>
+  </td> <td>
+  <input name="Name" type="text" maxlength="60" style="width:250px;" />
+  </td> </tr> <tr> <td>
+  <label for="PhoneNumber">Phone number:</label>
+  </td> <td>
+  <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
+  </td> </tr> <tr> <td>
+  <label for="FromEmailAddress">Email address*:</label>
+  </td> <td>
+  <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
+  </td> </tr> <tr> <td>
+  <label for="Comments">Comments*:</label>
+  </td> <td>
+  <textarea name="Comments" rows="7" cols="30" style="width:350px;"></textarea>
+  </td> </tr> <tr class="rf"> <td>
+  * - required fields
+  </td> <td>
+
+   <input name="skip_Submit" type="submit" value="Submit">
+
+  </td> </tr>
+  </table>
+  </form>
+
+
+</div>
+
+
+
+</body>
+</html>

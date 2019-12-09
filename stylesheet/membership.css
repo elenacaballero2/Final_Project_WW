@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(126,174,174);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgb(32,81,105);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*.text{
+    font-size: 
+}
+.column{
+    display: flex;
+    background-color: red;
+
+}
+
+
+.box{
+    padding: 100px;
+    align-items: center;
+    column-gap: 40px;
+
+}*/
+body{
+  background-color: background-color:#f4f5ff;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 80px;
+    border: none;
+}
+button:hover{
+  color:pink;
+}
+/* Create three equal columns that floats next to each other */
+/*.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  column-gap: 40px; /* Should be removed. Only for demonstration */
+/*}
+.equal{
+    display: flex;
+}*/
+
+
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+/*
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}*/
+/*.blah{
+    background-image: url("../images/yoga.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+    height: 100%;
+}*/
+/**/
+.header{
+  background-image: url("../images/img1.jpeg");
+  width: 100vw;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.beverage {
+  width: 100%;
+}
+section {
+  width: 50%;
+  background-color: #04063d;
+  padding: 50px;
+  color: #f4f5ff ;
+}
+.one {
+  background-color:#f4f5ff  ;
+  color: black;
+  border: solid black 3px;
+}
+.container{
+  display: flex;
+  max-width: 800px;
+  /*position: absolute;
+  left: 100px;*/
+  margin-left: 250px;
+  margin-top: 50px;
+}
+  
+h4{
+  text-align: center;
+  color: black;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left:600px;
+  font-size: 30px;
+  background-color: #f4f5ff;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid black 1px;
+
+ } 
+h3{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  display: block;
+  position: absolute;
+  top: 23%;
+  left: 610px;
+  font-size: 20px;
+}
+
+

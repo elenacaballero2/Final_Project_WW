@@ -1,0 +1,372 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#f4f5ff;
+	font-weight: 300;
+	font-size: 24px;
+	color: black;
+	line-height: 1.7;
+	font-family: 'Nunito', sans-serif;
+}
+header{
+/*	background-color: #1b427b;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;*/
+}
+.logo{
+	width: 40%;
+	margin-left: -10%;
+	display: block;
+	position: relative;
+	bottom:85px;
+
+}
+.header{
+	text-align: center;
+	background-color: pink ;
+ 	 margin: 0;
+ 	 height: 5%;
+  	color:black;
+	
+}
+.banner{
+	/*background-image: url('../images/image-1.jpeg');*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding: 8px 8px 8px 32px;
+	margin: auto;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4f5ff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgb(32,81,105);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.join{
+	background-color:  #961010;
+	padding:;
+	/*	border: solid black 3px;
+	width: 250px;*/
+	border: none;
+
+}
+.join a{
+	color: white;
+	font-size: 30px;
+}
+.container .join:hover {
+  color: white;
+  padding: 16px 30px;
+}
+#parallax1 .container .join{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #961010; 
+  color: black;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: solid black 1px;
+  text-align: center;
+  border-radius: 6px;
+   cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn1{
+	color: white;
+	font-size: 30px;
+	border: none;
+	background-color: #961010;
+}
+
+#container2 .btn1:hover{
+	color: white;
+	padding: 16px 30px;
+}
+
+#parallax2 #container2{
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #961010;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: solid black 1px;
+  text-align: center;
+  border-radius: 6px;
+   cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.btn2{
+	color: white;
+	font-size: 30px;
+	border: none;
+	background-color: #961010;
+}
+
+#container3 .btn2:hover{
+	color: white;
+	padding: 16px 30px;
+}
+
+#parallax3 #container3{
+  position: absolute;
+  top: 225%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #961010 ;
+  font-size: 30px;
+  padding: 16px 30px;
+  border: solid black 1px;
+  text-align: center;
+  border-radius: 6px;
+   cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+,text-box p{
+	padding: 20px;
+	width: 200px;
+}
+.text-box h3{
+	padding: 10px;
+}
+.b1{
+	padding: 10px;
+}
+.text-box1{
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 20px;
+	height: 200px;
+	color: #f4f5ff;
+}
+.text-box{
+	padding: 50px;
+	text-align: center;
+	padding-bottom: 100px;
+	height: 200px;
+	background-color: black;
+	color:#f4f5ff;
+}
+
+button{
+	border-radius: 20px;
+	padding: 10px;
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+
+}
+/*scrolling effect*/
+#parallax1 {
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+    background-size: 100px 100px;
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#parallax2 {
+	background-image: url("../images/img5.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax3 {
+	background-image: url("../images/br.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*last section*/
+
+.email-section {
+}
+.email-wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	height: 70vh;
+}
+.img {
+	width: 50%;
+	background-image: url("../images/img7.jpeg");
+	background-size: 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.txt {
+	width: 50%;
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.txt h3 {
+	color: #04063d;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+.button {
+	color: #04063d;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #04063d;
+	padding: 5px;
+	text-align: center;
+}
+.button a{
+	text-decoration: none;
+	color: #04063d;
+}
+
+.button a:hover{
+	color: white;
+}
+
+/*.top{
+	text-align: center;
+	position: relative;
+}*/
+
+.top {
+  display: block;
+  position: absolute;
+  left: 40%;
+  border-radius: 4px;
+  background-color:#961010 ;
+  border: none;
+  color: #04063d;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.top span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.top span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: 0px;
+  transition: 0.5s;
+}
+
+.top:hover span {
+  padding-top: 25px;
+}
+
+.top:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

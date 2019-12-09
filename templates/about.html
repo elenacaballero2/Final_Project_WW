@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>final</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/about.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="../index.html">Home</a>
+	  <a href="../templates/about.html">About</a>
+	  <a href="../templates/membership.html">Membership</a>
+	  <a href="../templates/contact.html">Contact Us</a>
+	  <a href="../templates/gallery.html">Gallery</a>
+</div>
+
+
+<div id="main">
+ 	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</header>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<!-- Simple two columns -->
+<div class="bg"></div>
+<div class="title">
+	<h1>Our Story</h1>
+</div>
+
+<div class="container1">
+	<section class="woman">
+		<img src="../images/ww.jpg">
+	</section>
+	<section class="words">
+		<h1>The Story of Wonder Woman</h1>
+		<h4>For over many years, Wonder Woman has been a beacon of strength for many people. Since she was growing up she knew all she wanted to do was to help as many people as possible. She is a hero to many and continues to save lives. She founded the Wonder Women fitness center in 2012, and since then it has grown to a registry of millions. She provides fitness advice, exercises, and motivation to all types of people. <h4>
+	</section>
+</div>	
+
+<div class="container">
+	<section>
+		<img src="../images/giphy.gif" width="100%">
+	</section>
+	<section>
+		<h4>“I’m willing to fight for those who cannot fight for themselves.”</h4>
+		<h4>-Diana a.k.a Wonder Woman</h4>
+	</section>
+</div>	
+
+
+
+
+
+
+
+
+
+</body>
+</html>

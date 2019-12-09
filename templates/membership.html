@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>final</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../stylesheet/membership.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="../index.html">Home</a>
+	  <a href="../templates/about.html">About</a>
+	  <a href="../templates/membership.html">Membership</a>
+	  <a href="../templates/contact.html">Contact Us</a>
+	  <a href="../templates/gallery.html">Gallery</a>
+</div>
+
+
+<div id="main">
+ 	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</header>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<!-- first section -->
+ <section class="header">
+	 <div class="bg-img">
+	 	<div class="container">
+	 		<h4>Membership Options</h4>
+	 		<h3>Pick the option that's right for you.</h3>
+	 	</div>
+	 
+	 </div>
+</section>
+
+
+<div class="container">
+	<section class="one">
+		<h1>1 Year Commitment</h1>
+		<h1>$999/year</h1>
+		<button>Join</button>
+	</section>
+	<section>
+		<h1>Month-to-Month</h1>
+		<h2>$150/month</h2>
+		<button>Join</button>
+	</section>
+</div>
+
+ <!-- <section>
+	 <div class="box">
+		<div class="row">
+		  <div class="column" style="background-color:#aaa;">
+		  	<div class="equal">
+			    <div class="left">
+			    	<h3>Month-to-Month</h3>
+			    	<h1>$150/mo</h1>
+			    	<button>Join</button>
+			    </div>
+			    <div class="right">
+			    	<h3>1 Year Commitment</h3>
+			    	<h1>$999</h1>
+			    	<button>Join</button>
+			    </div>
+			 </div>
+	</div>
+	 <div class="box">
+		<div class="row">
+		  <div class="column" style="background-color:#aaa;">
+		  	<div class="equal">
+			    <div class="left">
+			    	<h3>Month-to-Month</h3>
+			    	<h1>$150/mo</h1>
+			    	<button>Join</button>
+			    </div>
+			    <div class="right">
+			    	<h3>1 Year Commitment</h3>
+			    	<h1>$999</h1>
+			    	<button>Join</button>
+			    </div>
+			 </div>
+	</div>
+</section> -->
+
+
+
+
+
+
+
+</body>
+</html>
